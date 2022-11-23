@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+#minhaAgenda {
+  float: right;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#minhaAgenda th, #minhaAgenda td {
+  text-align: left;
+  padding: 12px;
+}
+
+#minhaAgenda tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#minhaAgenda tr.header, #minhaAgenda tr:hover {
+    background-color: #f1f1f1;
+}
+* {
+  box-sizing: border-box;
+}
+
+#meuRamal {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#meuRamal th, #meuRamal td {
+  text-align: left;
+  padding: 12px;
+}
+
+#meuRamal tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#meuRamal tr.header, #meuRamal tr:hover {
+  background-color: #f1f1f1;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+</style>
+
+<title>Ramais Empresa</title>
+
+</head>
+
+<body>
+
+<a href="http://Empresa.com.br/">
+  <img src="./img/logo.png" alt="Logo Empresa">
+</a>
+
+<h1 align="center">Ramais Empresa</h1>
+
+<div id="divTabelas" class="row">
+    <div id="divRamal" class="column">
+        <table id="meuRamal">
+        <tr class="header">
+            <th style="width:20%;">Área</th>
+            <th style="width:20%;">Setor</th>
+            <th style="width:20%;">Usuário</th>
+            <th style="width:20%;">Ramal</th>
+            <th style="width:20%;">Agenda</th>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Diretoria </td>
+            <td rowspan="3">Diretoria</td>
+            <td>Sr.Marcelo</td>
+            <td>8891</td>
+            <td></td>
+      
+            <tr>
+            <td>Sr.Roberto</td>
+            <td>8810</td>
+            <td>7069</td>
+            </tr>
+
+            <tr>
+            <td>Sr.Evandro</td>
+            <td>8893</td>
+            <td></td>
+            </tr>
+        </tr>
+        <tr>
+            <td rowspan="4">Comercial</td>
+            <td rowspan="2">Vendas</td>
+            <td>Aline</td>
+            <td>8812</td>
+            <td>7057</td>
+        </tr>
+        <tr>
+            <td>Curitiba Loja</td>
+            <td></td>
+            <td>7018</td>
+        </tr>
+        <tr>
+            <td>Faturamento</td>
+            <td>Maicon</td>
+            <td>8853</td>
+            <td>7028</td>
+        </tr>
+        <tr>
+            <td>Exportação</td>
+            <td>Claudete</td>
+            <td>8859</td>
+            <td>7054</td>
+        </tr>
+        <tr>
+            <td>Logística</td>
+            <td>Carregamento</td>
+            <td>Dagmar</td>
+            <td>8811</td>
+            <td>7077</td>
+
+        </tr>
+        <tr>
+            <td rowspan="3">Almoxarifado</td>
+            <td>Almoxarifado</td>
+            <td>Daniela</td>
+            <td>8821</td>
+            <td>7017</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Compras</td>
+            <td>Jerry</td>
+            <td>8820</td>
+            <td>7064</td>
+        </tr>
+        <tr>
+            <td>Claudir</td>
+            <td>8825</td>
+            <td>7051</td>
+        </tr>
+        <tr>
+            <td rowspan="4">Administrativo</td>
+            <td rowspan="2">Fiscal / Contábil</td>
+            <td>Eduarda</td>
+            <td>8852</td>
+            <td>7052</td>
+        </tr>
+        <tr>
+            <td>Karina</td>
+            <td>8850</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Financeiro</td>
+            <td>Gisele</td>
+            <td>8831</td>
+            <td>7039</td>
+        </tr>
+        <tr>
+            <td>Custos</td>
+            <td>Piva</td>
+            <td>8832</td>
+            <td>7029</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4">RH</td>
+            <td>Gerência</td>
+            <td>Sra. Cida</td>
+            <td>8840</td>
+            <td>7084</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Dpt. Pessoal</td>
+            <td>Marilene</td>
+            <td>8841</td>
+            <td>7036</td>
+        </tr>
+        <tr>
+            <td>Brenda</td>
+            <td>8842</td>
+            <td>7013</td>
+        </tr>
+        <tr>
+            <td>Janaína</td>
+            <td>8849</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Segurança do Trabalho</td>
+            <td rowspan="2">Seg. do Trabalho</td>
+            <td>Terezinha</td>
+            <td>8830</td>
+            <td>7042</td>
+        </tr>
+        <tr>
+            <td>Elio</td>
+            <td>8834</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="3">T.I</td>
+            <td rowspan="3">T.I</td>
+            <td>Fabiano</td>
+            <td>8860</td>
+            <td>7042</td>
+        </tr>
+        <tr>
+            <td>André</td>
+            <td>8823</td>
+            <td>7032</td>
+        </tr>
+        <tr>
+            <td>Mábio</td>
+            <td>8854</td>
+            <td>7055</td>
+         </tr>
+         <tr>
+            <td rowspan="5">Departamento Técnico</td>
+            <td>Gerencia</td>
+            <td>Sr. Odilon</td>
+            <td>8880</td>
+            <td>7053</td>
+        </tr>
+        <tr>
+            <td>Qualidade</td>
+            <td>Danielli</td>
+            <td>8834</td>
+            <td>7067</td>
+        </tr>
+        <tr>
+            <td>Projetos</td>
+            <td>Elvis</td>
+            <td>8819</td>
+            <td>7044</td>
+        </tr>
+        <tr>
+            <td rowspan="2">PCP</td>
+            <td>Edemar</td>
+            <td>8823</td>
+            <td>7015</td>
+         </tr>
+         <tr>
+            <td>Alex</td>
+            <td>8825</td>
+            <td>7016</td>
+        </tr>
+
+        <tr>
+            <td>Assistência Técnica</td>
+            <td>Assist. Técnica</td>
+            <td>Aline</td>
+            <td>8812</td>
+            <td>7031</td>
+         </tr>
+
+         <tr>
+            <td rowspan="5">Fábrica</td>
+            <td>Montagem</td>
+            <td>Operador</td>
+            <td>8870</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Precorte</td>
+            <td>Operador</td>
+            <td>8871</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Pintura</td>
+            <td>Jair</td>
+            <td>8872</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Usinagem</td>
+            <td>Operador</td>
+            <td>8824</td>
+            <td></td>
+         </tr>
+         <tr>
+            <td>Embalagem</td>
+            <td>Operador</td>
+            <td>8833</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Serraria</td>
+            <td>Gerência</td>
+            <td>Sr. Adelino</td>
+            <td>8844</td>
+            <td>7056</td>
+        </tr>
+        <tr>
+            <td>Serraria</td>
+            <td>Adelmo</td>
+            <td>8855</td>
+            <td>7045</td>
+        </tr>
+        <tr>
+            <td>Caldeira</td>
+            <td>Caldeira</td>
+            <td>Operador</td>
+            <td>8857</td>
+            <td></td>
+         </tr>
+         <tr>
+            <td>Manutenção</td>
+            <td>Mecânica, Elétrica</td>
+            <td>Mecânica, Elétrica</td>
+            <td>8856</td>
+            <td></td>
+
+         </tr>
+         <tr>
+            <td>Portaria</td>
+            <td>Portaria</td>
+            <td>Guarda</td>
+            <td>8843</td>
+            <td></td>
+         </tr>
+
+        </table>
+    </div>
+
+    <div id="divAgenda" class="column">
+        <table id="minhaAgenda">
+            <tr class="header">
+            <th style="width:50%;">Agenda Global</th>
+            <th style="width:50%;">ID</th>
+            </tr>
+            <tr>
+                <td>Bombeiros</td>
+                <td>7010</td>
+            </tr>
+            <tr>
+                <td>Polícia</td>
+                <td>7011</td>
+
+            </tr>
+            <tr>
+                <td>Hospital Fraiburgo</td>
+                <td>7012</td>
+            </tr>
+            <tr>
+                <td>Lupea</td>
+                <td>7019</td>
+            </tr>
+            <tr>
+                <td>Manvetec</td>
+                <td>7020</td>
+            </tr>
+            <tr>
+                <td>Pronto-Atendimento</td>
+                <td>7021</td>
+            </tr>
+            <tr>
+                <td>Prefeitura Fraiburgo</td>
+                <td>7023</td>
+            </tr>
+            <tr>
+                <td>3S Material Escritório</td>
+                <td>7025</td>
+            </tr>
+            <tr>
+                <td>Mecânica Coelho</td>
+                <td>7026</td>
+            </tr>
+            <tr>
+                <td>Hello  </td>
+                <td>7027</td>
+            </tr>
+            <tr>
+                <td>Restaurante Molin</td>
+                <td>7037</td>
+            </tr>
+            <tr>
+                <td>Crestani Peças</td>
+                <td>7041</td>
+            </tr>
+            <tr>
+                <td>Ecoverde</td>
+                <td>7065</td>
+            </tr>
+            <tr>
+                <td>Mecânica Nardi</td>
+                <td>7078</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+</body>
+</html>
